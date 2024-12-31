@@ -1,6 +1,6 @@
 ---
 title: "6 Best Ideas To Earn More Money As A Programmer Or A Software Engineer"
-date: 2022-11-03T20:06:51Z
+date: 2022-11-03
 description: "Learn 6 ways to earn more money as a software developer or programmer: blogging, video course, bug bounty, freelancing, YouTube channel, mobile app creation."
 tags: ["money", "ideas", "video-course", "freelancing", "blogging", "bug-bounty", "youtube-channel", "mobile-app"]
 categories: ["Ideas"]
