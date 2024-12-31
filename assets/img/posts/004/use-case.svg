@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="523px" preserveAspectRatio="none" style="width:940px;height:523px;background:#FFFFFF;" version="1.1" viewBox="0 0 940 523" width="940px" zoomAndPan="magnify"><defs/><g><!--MD5=[8517bb2bed011479b7e4bed0c207106d]
+cluster CustomerActions--><g id="cluster_CustomerActions"><path d="M8.5,6 L129.5,6 A3.75,3.75 0 0 1 132,8.5 L139,29.6094 L930.5,29.6094 A2.5,2.5 0 0 1 933,32.1094 L933,228.5 A2.5,2.5 0 0 1 930.5,231 L8.5,231 A2.5,2.5 0 0 1 6,228.5 L6,8.5 A2.5,2.5 0 0 1 8.5,6 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="6" x2="139" y1="29.6094" y2="29.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="120" x="10" y="22.5332">CustomerActions</text></g><!--MD5=[ed6aebe5b400e8621c6c4a9e0108b532]
+cluster AdminActions--><g id="cluster_AdminActions"><path d="M52.5,263 L148.5,263 A3.75,3.75 0 0 1 151,265.5 L158,286.6094 L851.5,286.6094 A2.5,2.5 0 0 1 854,289.1094 L854,513.5 A2.5,2.5 0 0 1 851.5,516 L52.5,516 A2.5,2.5 0 0 1 50,513.5 L50,265.5 A2.5,2.5 0 0 1 52.5,263 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="50" x2="158" y1="286.6094" y2="286.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="95" x="54" y="279.5332">AdminActions</text></g><!--MD5=[ae78ca0dd1f49bdd788e5556d70823ac]
+entity Customer--><g id="elem_Customer"><ellipse cx="438" cy="50.5" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M438,58.5 L438,85.5 M425,66.5 L451,66.5 M438,85.5 L425,100.5 M438,85.5 L451,100.5 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="61" x="407.5" y="116.5332">Customer</text></g><g id="elem_Login"><ellipse cx="58.234" cy="197.4517" fill="#F1F1F1" rx="36.234" ry="15.4517" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="35" x="40.734" y="201.1802">Login</text></g><g id="elem_ViewProducts"><ellipse cx="198.1119" cy="197.7224" fill="#F1F1F1" rx="69.1119" ry="16.2224" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="85" x="152.6119" y="202.239">ViewProducts</text></g><g id="elem_AddToCart"><ellipse cx="362.9074" cy="197.5891" fill="#F1F1F1" rx="60.9074" ry="15.5891" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="69" x="325.4074" y="202.1057">AddToCart</text></g><g id="elem_Checkout"><ellipse cx="513.758" cy="197.5364" fill="#F1F1F1" rx="54.258" ry="15.5364" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="60" x="480.758" y="202.053">Checkout</text></g><g id="elem_TrackOrder"><ellipse cx="667.8631" cy="197.609" fill="#F1F1F1" rx="63.8631" ry="15.609" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="73" x="628.3631" y="202.1256">TrackOrder</text></g><g id="elem_LeaveFeedback"><ellipse cx="842.2256" cy="197.4451" fill="#F1F1F1" rx="75.2256" ry="17.4451" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="102" x="788.2256" y="201.9617">LeaveFeedback</text></g><!--MD5=[97ab183161fd5d1db7fba7485cf76add]
+entity Admin--><g id="elem_Admin"><ellipse cx="416" cy="315.5" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M416,323.5 L416,350.5 M403,331.5 L429,331.5 M416,350.5 L403,365.5 M416,350.5 L429,365.5 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="39" x="396.5" y="381.5332">Admin</text></g><g id="elem_AdminLogin"><ellipse cx="147.102" cy="468.6136" fill="#F1F1F1" rx="64.602" ry="15.6136" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="74" x="107.102" y="473.1302">AdminLogin</text></g><g id="elem_ManageProducts"><ellipse cx="324.1203" cy="468.3241" fill="#F1F1F1" rx="77.1203" ry="17.8241" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="107" x="268.2783" y="472.6856">ManageProducts</text></g><g id="elem_ManageOrders"><ellipse cx="509.1476" cy="468.4295" fill="#F1F1F1" rx="72.6476" ry="16.9295" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="95" x="458.6476" y="472.9461">ManageOrders</text></g><g id="elem_ManageCustomerFeedback"><ellipse cx="722.8456" cy="468.6691" fill="#F1F1F1" rx="106.3456" ry="23.6691" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="175" x="635.3456" y="472.3976">ManageCustomerFeedback</text></g><!--MD5=[fc5d6981b9c3cca7ce70b748c71bb463]
+link Customer to Login--><g id="link_Customer_Login"><path d="M407.42,91.14 C349.67,108.42 220.59,147.09 112,180 C105.35,182.02 98.24,184.18 91.43,186.26 " fill="none" id="Customer-to-Login" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="86.3,187.83,96.0749,189.0351,91.0832,186.3736,93.7447,181.382,86.3,187.83" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[27952760840bf0f6467a6b23defea1dd]
+link Customer to ViewProducts--><g id="link_Customer_ViewProducts"><path d="M407.12,96.73 C361.83,118.34 277.75,158.45 231.19,180.67 " fill="none" id="Customer-to-ViewProducts" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="226.52,182.89,236.3651,182.6187,231.0314,180.7342,232.9159,175.4005,226.52,182.89" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[b5f1b6cee40007e13d9cc8524f90b6ae]
+link Customer to AddToCart--><g id="link_Customer_AddToCart"><path d="M413.03,120.13 C400.33,139.51 385.47,162.2 375.26,177.78 " fill="none" id="Customer-to-AddToCart" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="372.51,181.98,380.7969,176.6576,375.257,177.8022,374.1124,172.2624,372.51,181.98" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[9f3101682cbc5593dd9498d6b66a184e]
+link Customer to Checkout--><g id="link_Customer_Checkout"><path d="M463.31,120.13 C476.17,139.51 491.23,162.2 501.58,177.78 " fill="none" id="Customer-to-Checkout" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="504.36,181.98,502.7344,172.2662,501.603,177.8088,496.0604,176.6774,504.36,181.98" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[1d173c230833ba26e04359bb5d4c0e6a]
+link Customer to TrackOrder--><g id="link_Customer_TrackOrder"><path d="M468.54,97.2 C512.4,119.04 592.79,159.06 636.93,181.03 " fill="none" id="Customer-to-TrackOrder" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="641.61,183.36,635.3393,175.7654,637.135,181.1297,631.7707,182.9254,641.61,183.36" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[f10e6ab67348e72e01983a8f798a3101]
+link Customer to LeaveFeedback--><g id="link_Customer_LeaveFeedback"><path d="M468.7,90.7 C537.85,110.3 706.37,158.06 791.31,182.13 " fill="none" id="Customer-to-LeaveFeedback" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="796.28,183.54,788.7252,177.2214,791.4724,182.1664,786.5274,184.9136,796.28,183.54" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[22e119717c7277f5da870dfeabe014b9]
+link Admin to AdminLogin--><g id="link_Admin_AdminLogin"><path d="M396.47,381.88 C395.36,382.99 394.2,384.04 393,385 C376.85,397.93 257.19,434.79 190.9,454.57 " fill="none" id="Admin-to-AdminLogin" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="185.83,456.08,195.5981,457.3386,190.6211,454.6498,193.3098,449.6728,185.83,456.08" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[ae2e1b0199973fbb44c020e61747ec46]
+link Admin to ManageProducts--><g id="link_Admin_ManageProducts"><path d="M396.49,379.95 C395.33,381.68 394.17,383.37 393,385 C377.29,406.99 357.29,430.48 342.87,446.75 " fill="none" id="Admin-to-ManageProducts" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="339.33,450.73,348.3076,446.6799,342.6598,447.0001,342.3397,441.3523,339.33,450.73" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[a79fa77c1eaf340576df1def8934cd7c]
+link Admin to ManageOrders--><g id="link_Admin_ManageOrders"><path d="M435.72,372.55 C452.95,394.87 477.6,426.82 493.46,447.37 " fill="none" id="Admin-to-ManageOrders" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="496.7,451.57,494.3631,442.0024,493.6432,447.6133,488.0323,446.8933,496.7,451.57" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[f9a2d61ca880590b0c6d80c6f34099d4]
+link Admin to ManageCustomerFeedback--><g id="link_Admin_ManageCustomerFeedback"><path d="M435.67,354.72 C481.74,372.81 598.01,418.44 667.71,445.8 " fill="none" id="Admin-to-ManageCustomerFeedback" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="672.64,447.73,665.7245,440.7174,667.9859,445.9026,662.8007,448.164,672.64,447.73" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[fb6f62f6502a7e4bddb1d7f175d08f92]
+link Login to AdminActions--><!--MD5=[79ff1a1d043549286b71bfab723dbd08]
+@startuml Use Case Diagram Example - Online Shopping System
+
+package CustomerActions {
+  actor Customer
+  usecase Login
+  usecase ViewProducts
+  usecase AddToCart
+  usecase Checkout
+  usecase TrackOrder
+  usecase LeaveFeedback
+}
+
+package AdminActions {
+  actor Admin
+  usecase AdminLogin
+  usecase ManageProducts
+  usecase ManageOrders
+  usecase ManageCustomerFeedback
+}
+
+Customer - -> Login
+Customer - -> ViewProducts
+Customer - -> AddToCart
+Customer - -> Checkout
+Customer - -> TrackOrder
+Customer - -> LeaveFeedback
+
+Admin - -> AdminLogin
+Admin - -> ManageProducts
+Admin - -> ManageOrders
+Admin - -> ManageCustomerFeedback
+
+
+' This is a hack to make diagrams vertically aligned.
+Login -[hidden]-> AdminActions
+
+@enduml
+
+@startuml Use Case Diagram Example - Online Shopping System
+
+package CustomerActions {
+  actor Customer
+  usecase Login
+  usecase ViewProducts
+  usecase AddToCart
+  usecase Checkout
+  usecase TrackOrder
+  usecase LeaveFeedback
+}
+
+package AdminActions {
+  actor Admin
+  usecase AdminLogin
+  usecase ManageProducts
+  usecase ManageOrders
+  usecase ManageCustomerFeedback
+}
+
+Customer - -> Login
+Customer - -> ViewProducts
+Customer - -> AddToCart
+Customer - -> Checkout
+Customer - -> TrackOrder
+Customer - -> LeaveFeedback
+
+Admin - -> AdminLogin
+Admin - -> ManageProducts
+Admin - -> ManageOrders
+Admin - -> ManageCustomerFeedback
+
+
+Login -[hidden]-> AdminActions
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 18:01:30 BST 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: en
+Country: US
+--></g></svg>
