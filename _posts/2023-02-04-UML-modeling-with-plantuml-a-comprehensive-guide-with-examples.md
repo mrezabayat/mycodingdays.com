@@ -4,7 +4,7 @@ date: 2023-02-04
 description: "Master UML for effective software design with this comprehensive guide. Learn about structure & behavior diagrams, use case, class, state machine, sequence & activity diagrams. Explore real-life examples and discover the power of inheritance, composition, polymorphism and more. Enhance your software design process with UML."
 tags: ["UML", "Software Design", "Structure Diagrams", "Behavior Diagrams", "Use Case Diagrams", "Class Diagrams", "State Machine Diagrams", "Sequence Diagrams", "Activity Diagrams", "Inheritance", "Composition", "Polymorphism"]
 categories: ["Design and Architecture"]
-author: <author_id>
+author: mrbayat
 media_subpath:  /assets/img/posts/004
 image:
     path: banner.png

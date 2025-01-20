@@ -4,7 +4,7 @@ date: 2023-02-04
 description: "This post explores two fundamental design principles in object-oriented modeling: decomposition and generalization. Decomposition involves breaking down complex systems into manageable parts, making them easier to understand, maintain, and scale, while generalization focuses on building hierarchical relationships between classes to promote reusability and extensibility. Using practical C++ examples and UML class diagrams, the post demonstrates how these principles can be applied to create modular, efficient, and maintainable software. From understanding relationships like association, aggregation, and composition to leveraging inheritance hierarchies, this article provides valuable insights and best practices for effective software design."
 tags: ["object-oriented design", "software architecture", "C++ programming", "decomposition", "generalization", "UML diagrams", "software design principles", "inheritance", "class relationships", "modular programming"]
 categories: ["Design and Architecture"]
-author: <author_id>
+author: mrbayat
 media_subpath:  /assets/img/posts/006
 image:
     path: banner.png

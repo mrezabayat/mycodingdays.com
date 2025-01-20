@@ -4,7 +4,7 @@ date: 2023-01-22
 description: "Learn the basics of AI & ML w/ this comprehensive guide. Covers math concepts, programming languages, tools & techniques. Includes resources & tips for staying current."
 tags: ["Artificial Intelligence", "Machine Learning", "Linear Algebra", "Calculus", "Probability", "Statistics", "Math for AI", "AI for beginners", "ML for beginners", "AI and ML learning roadmap", "AI and ML resources", "AI and ML concepts"]
 categories: [AI and ML]
-author: <author_id>
+author: mrbayat
 media_subpath:  /assets/img/posts/003
 image:
     path: AI_ML_Guide_banner.jpg

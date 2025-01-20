@@ -4,7 +4,7 @@ date: 2023-01-21
 description: "Explore the capabilities & limitations of AI & ML in this informative article. Covers key differences, potential, & concerns. Emphasizes responsible use to unlock potential & create a better future."
 tags: ["Artificial Intelligence", "Machine Learning", "Self-driving cars", "Big data", "AI ethics", "Data Science", "ML applications", "AI and ML future", "AI and ML trends", "AI and ML advancements", "AI and ML in healthcare", "AI and ML in finance", "AI and ML in business", "AI and ML in technology", "AI and ML in everyday life"]
 categories: ["AI and ML"]
-author: <author_id>
+author: mrbayat
 media_subpath:  /assets/img/posts/002
 image:
     path: AI_banner.jpg

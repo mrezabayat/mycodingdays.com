@@ -4,7 +4,7 @@ date: 2022-11-03
 description: "Learn 6 ways to earn more money as a software developer or programmer: blogging, video course, bug bounty, freelancing, YouTube channel, mobile app creation."
 tags: ["money", "ideas", "video-course", "freelancing", "blogging", "bug-bounty", "youtube-channel", "mobile-app"]
 categories: ["Ideas"]
-author: <author_id>
+author: mrbayat
 media_subpath:  /assets/img/posts/001
 image:
     path: earn-more-money-banner.png

@@ -4,7 +4,7 @@ date: 2023-02-04
 description: "In this article, we’ll examine common modelling problems and how programming languages have evolved towards object orientation. And we’ll explore abstraction and encapsulation. We'll discuss each topics with code examples in C++ and UML diagrams."
 tags: ["Object-oriented modelling", "Abstraction", "Encapsulation", "Decomposition", "Generalization", "Programming languages", "C++", "UML", "Design principles", "Software development"]
 categories: ["Design and Architecture"]
-author: <author_id>
+author: mrbayat
 media_subpath:  /assets/img/posts/005
 image:
     path: banner.png
