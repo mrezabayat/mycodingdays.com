@@ -1,0 +1,47 @@
+@startuml
+title Observer Design Pattern - Class Diagram
+
+' Interface for Observer
+interface Observer {
+    +{abstract} update()
+}
+
+' Interface for Subject
+interface Subject {
+    +{abstract} attach(Observer observer)
+    +{abstract} detach(Observer observer)
+    +{abstract} notify()
+}
+
+' Concrete Subject
+class ConcreteSubject {
+    -state : String
+    -observers : List<Observer>
+    +getState() : String
+    +setState(state : String)
+    +attach(Observer observer)
+    +detach(Observer observer)
+    +notify()
+}
+
+' Concrete Observer
+class ConcreteObserver {
+    -subject : ConcreteSubject
+    -observerState : String
+    +update()
+    +getObserverState() : String
+}
+
+' Client Class
+class Client {
+    +main(args : String[])
+}
+
+' Relationships
+Subject <|.. ConcreteSubject
+Observer <|.. ConcreteObserver
+
+ConcreteSubject "1" o-- "*" Observer : maintains
+Client --> ConcreteSubject : interacts with
+Client --> ConcreteObserver : interacts with
+@enduml

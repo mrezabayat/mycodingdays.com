@@ -1,6 +1,6 @@
 ---
 title: "Strategy Pattern in C++: A Flexible Approach to Dynamic Behaviors with Smart Pointers"
-date: 2025-01-20
+date: 2025-01-17
 description: "This article demonstrates how to implement the Strategy Pattern in C++, using a simple example of ducks with different flying and quacking behaviors. It highlights the flexibility and reusability of the pattern and shows how smart pointers can be used to manage memory safely and prevent leaks."
 tags: ["Strategy Pattern", "C++", "Design Patterns", "Smart Pointers", "Memory Management", "Object-Oriented Programming", "Behavioral Patterns", "C++ Best Practices", "Software Design", "Dynamic Behaviors"]
 categories: ["Design Patterns", "Design and Architecture"]
