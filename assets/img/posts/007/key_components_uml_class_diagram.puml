@@ -1,0 +1,33 @@
+@startuml
+' Define Strategy Interface
+interface Strategy {
+    +{abstract} execute()
+}
+
+' Define Concrete Strategies
+class ConcreteStrategyA {
+    + execute()
+}
+class ConcreteStrategyB {
+    + execute()
+}
+
+' Define Context
+class Context {
+    - strategy: Strategy
+    + setStrategy(Strategy strategy)
+    + executeStrategy()
+}
+
+' Define Client
+class Client {
+    + main()
+}
+
+' Relationships
+Strategy <|.. ConcreteStrategyA
+Strategy <|.. ConcreteStrategyB
+Context o-- Strategy
+Client --> Context
+
+@enduml
