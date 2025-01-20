@@ -35,13 +35,15 @@ The Strategy design pattern is a **behavioral** design pattern that enables sele
    b. **Responsibility**: Implement different variations of the algorithm, encapsulating their details.
    c. **Purpose**: Allow easy addition of new behaviors without modifying the Context or other strategies, adhering to the Open-Closed Principle.
 
-### Example
+### Example: Strategy Design Pattern in Action
 
-Let’s consider an example to understand the Strategy design pattern in action. We have a `Duck` class that needs to perform different behaviors, such as flying and quacking. Instead of hardcoding these behaviors into the class, they are abstracted into two separate interfaces: `iFlyBehavior` and `iQuackBehavior`. These interfaces define the contracts for flying and quacking actions. Various concrete implementations, such as `FlyWithWings` or `FlyNoWay` for flying and `Quack` or `MuteQuack` for quacking, encapsulate specific behaviors. This approach allows the `Duck` class to dynamically use different behaviors at runtime by composing appropriate strategy objects, ensuring flexibility and adherence to the Open-Closed Principle. New behaviors can be easily introduced without modifying the existing code.
+Let’s consider an example to understand the Strategy design pattern in action. We will design a `Duck` class that can exhibit different behaviors, such as flying and quacking. Instead of hardcoding these behaviors into the `Duck` class, we will use the Strategy pattern to encapsulate these behaviors into separate interfaces and classes. This approach allows us to dynamically change the behavior of a `Duck` at runtime and ensures flexibility and adherence to the Open-Closed Principle.
 
-![class diagram](duck-class-diagram.png)
+Here’s a step-by-step explanation and implementation of the pattern:
 
-#### Duck Class
+#### 1. **Duck Class**
+
+The `Duck` class represents the context in the Strategy pattern. It uses composition to include flying and quacking behaviors via `iFlyBehavior` and `iQuackBehavior` interfaces. Behaviors can be swapped dynamically using setter methods.
 
 ```cpp
 #pragma once
@@ -71,7 +73,7 @@ public:
   }
 
   void swim() const { std::cout << "I'm swimming.\n"; }
-  virtual void display() = 0 ;
+  virtual void display() = 0;
 
   void performQuack() { m_quackBehavior->quack(); }
   void performFly() { m_flyBehavior->fly(); }
@@ -93,8 +95,11 @@ protected:
 }
 ```
 
-#### Fly Behavior Interface
+#### 2. **Behavior Interfaces**
 
+The interfaces `iFlyBehavior` and `iQuackBehavior` define the contracts for flying and quacking behaviors. All concrete behaviors will implement these interfaces.
+
+**Fly Behavior Interface:**
 ```cpp
 #pragma once
 
@@ -105,8 +110,7 @@ public:
 };
 ```
 
-#### Quack Behavior Interface
-
+**Quack Behavior Interface:**
 ```cpp
 #pragma once
 
@@ -117,8 +121,13 @@ public:
 };
 ```
 
-#### Concrete Fly Behaviors
+---
 
+#### 3. **Concrete Behaviors**
+
+Concrete classes provide specific implementations of flying and quacking behaviors.
+
+**Concrete Fly Behaviors:**
 ```cpp
 #include "ifly_behavior.hpp"
 #include <iostream>
@@ -136,10 +145,16 @@ public:
     std::cout << "I can't fly.\n";
   }
 };
+
+class FlyRocketPowered : public iFlyBehavior {
+public:
+  void fly() override {
+    std::cout << "I'm flying with a rocket!\n";
+  }
+};
 ```
 
-#### Concrete Quack Behaviors
-
+**Concrete Quack Behaviors:**
 ```cpp
 #include "iquack_behavior.hpp"
 #include <iostream>
@@ -158,6 +173,85 @@ public:
   }
 };
 ```
+
+#### 4. **Duck Subclasses**
+
+Specific types of ducks inherit from the `Duck` class and define their own `display` behavior.
+
+```cpp
+#include "duck.hpp"
+#include "fly_with_wings.hpp"
+#include "quack.hpp"
+
+namespace duck {
+
+class MallardDuck : public Duck {
+public:
+  MallardDuck() {
+    m_flyBehavior = std::make_unique<FlyWithWings>();
+    m_quackBehavior = std::make_unique<Quack>();
+  }
+  void display() override {
+    std::cout << "I'm a Mallard Duck.\n";
+  }
+};
+
+class ModelDuck : public Duck {
+public:
+  ModelDuck() {
+    m_flyBehavior = std::make_unique<FlyNoWay>();
+    m_quackBehavior = std::make_unique<Quack>();
+  }
+  void display() override {
+    std::cout << "I'm a Model Duck.\n";
+  }
+};
+
+}
+```
+
+#### 5. **Client Code**
+
+The `main` function demonstrates how to use the Strategy pattern. It creates ducks, displays their behaviors, and dynamically changes their flying behavior using `setFlyBehavior`.
+
+```cpp
+#include "mallard_duck.hpp"
+#include "model_duck.hpp"
+#include "fly_rocket_powered.hpp"
+
+int main() {
+    duck::MallardDuck myDuck;
+    myDuck.display();
+    myDuck.performQuack();
+    myDuck.swim();
+    myDuck.performFly();
+
+    duck::ModelDuck modelDuck;
+    modelDuck.display();
+    modelDuck.performFly();
+    modelDuck.performQuack();
+    modelDuck.swim();
+
+    auto rocketPoweredFly = std::make_unique<duck::FlyRocketPowered>();
+    modelDuck.setFlyBehavior(std::move(rocketPoweredFly));
+    modelDuck.performFly();
+
+    return 0; 
+}
+```
+
+### Explanation of the Client Code:
+
+1. **Create Ducks:**  
+   The client creates a `MallardDuck` and a `ModelDuck`. These ducks are initialized with default flying and quacking behaviors.
+
+2. **Display Behaviors:**  
+   Each duck displays its type and performs its default behaviors by calling `performFly()` and `performQuack()`.
+
+3. **Dynamic Behavior Change:**  
+   The `ModelDuck` changes its flying behavior to rocket-powered flight at runtime using the `setFlyBehavior()` method. Afterward, it performs the updated flying behavior.
+
+This example illustrates how the Strategy design pattern enables flexibility by separating the behaviors (flying and quacking) from the core `Duck` class. Using composition, the `Duck` class can dynamically change behaviors at runtime. Additionally, we used smart pointers to manage memory safely and avoid potential memory leaks, leveraging modern C++ practices for robust design.
 
 ### Conclusion
 
