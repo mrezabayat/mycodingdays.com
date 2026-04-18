@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="620" viewBox="0 0 1000 620" role="img" aria-labelledby="title desc">
+  <title id="title">Brain virus floppy illustration</title>
+  <desc id="desc">A diagram showing a floppy disk infecting a boot sector and then spreading to other PCs.</desc>
+  <rect width="1000" height="620" fill="#f8fafc"/>
+  <text x="500" y="56" text-anchor="middle" fill="#0f172a" font-size="30" font-family="Verdana, sans-serif" font-weight="700">
+    Brain spread through trusted floppy-disk exchange
+  </text>
+
+  <g transform="translate(120 120)">
+    <rect width="250" height="300" rx="18" fill="#1e293b"/>
+    <rect x="54" y="38" width="142" height="54" fill="#e2e8f0"/>
+    <rect x="54" y="104" width="142" height="92" fill="#fecaca"/>
+    <rect x="92" y="0" width="66" height="44" fill="#475569"/>
+    <text x="125" y="146" text-anchor="middle" fill="#7f1d1d" font-size="26" font-family="Verdana, sans-serif" font-weight="700">
+      BRAIN
+    </text>
+    <text x="125" y="236" text-anchor="middle" fill="#cbd5e1" font-size="18" font-family="Verdana, sans-serif">
+      5.25-inch floppy
+    </text>
+    <text x="125" y="260" text-anchor="middle" fill="#cbd5e1" font-size="18" font-family="Verdana, sans-serif">
+      boot sector infected
+    </text>
+  </g>
+
+  <g transform="translate(448 132)">
+    <rect width="180" height="120" rx="12" fill="#dbeafe" stroke="#1d4ed8" stroke-width="4"/>
+    <text x="90" y="34" text-anchor="middle" fill="#1e3a8a" font-size="20" font-family="Verdana, sans-serif" font-weight="700">
+      Boot Process
+    </text>
+    <text x="90" y="68" text-anchor="middle" fill="#0f172a" font-size="16" font-family="Verdana, sans-serif">
+      1. Boot from disk
+    </text>
+    <text x="90" y="92" text-anchor="middle" fill="#0f172a" font-size="16" font-family="Verdana, sans-serif">
+      2. Virus loads first
+    </text>
+  </g>
+
+  <g transform="translate(448 298)">
+    <rect width="180" height="120" rx="12" fill="#dcfce7" stroke="#16a34a" stroke-width="4"/>
+    <text x="90" y="34" text-anchor="middle" fill="#166534" font-size="20" font-family="Verdana, sans-serif" font-weight="700">
+      Next Disk Used
+    </text>
+    <text x="90" y="68" text-anchor="middle" fill="#0f172a" font-size="16" font-family="Verdana, sans-serif">
+      Memory-resident code
+    </text>
+    <text x="90" y="92" text-anchor="middle" fill="#0f172a" font-size="16" font-family="Verdana, sans-serif">
+      infects another floppy
+    </text>
+  </g>
+
+  <g transform="translate(710 118)">
+    <rect width="200" height="132" rx="14" fill="#ffffff" stroke="#0f172a" stroke-width="4"/>
+    <rect x="60" y="16" width="80" height="56" fill="#93c5fd"/>
+    <rect x="36" y="86" width="128" height="12" fill="#94a3b8"/>
+    <text x="100" y="116" text-anchor="middle" fill="#334155" font-size="18" font-family="Verdana, sans-serif">
+      PC A
+    </text>
+  </g>
+
+  <g transform="translate(710 286)">
+    <rect width="200" height="132" rx="14" fill="#ffffff" stroke="#0f172a" stroke-width="4"/>
+    <rect x="60" y="16" width="80" height="56" fill="#93c5fd"/>
+    <rect x="36" y="86" width="128" height="12" fill="#94a3b8"/>
+    <text x="100" y="116" text-anchor="middle" fill="#334155" font-size="18" font-family="Verdana, sans-serif">
+      PC B
+    </text>
+  </g>
+
+  <path d="M370 270 C410 270, 420 212, 448 192" fill="none" stroke="#0f172a" stroke-width="5" marker-end="url(#arrow)"/>
+  <path d="M370 270 C410 270, 420 354, 448 358" fill="none" stroke="#0f172a" stroke-width="5" marker-end="url(#arrow)"/>
+  <path d="M628 192 C664 188, 690 184, 710 184" fill="none" stroke="#1d4ed8" stroke-width="5" marker-end="url(#arrowBlue)"/>
+  <path d="M628 358 C664 352, 690 352, 710 352" fill="none" stroke="#16a34a" stroke-width="5" marker-end="url(#arrowGreen)"/>
+
+  <text x="500" y="512" text-anchor="middle" fill="#334155" font-size="19" font-family="Verdana, sans-serif">
+    <tspan x="500" dy="0">In the floppy-disk era, file sharing and software sharing</tspan>
+    <tspan x="500" dy="24">were often the same thing.</tspan>
+  </text>
+
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse">
+      <polygon points="0 0, 10 5, 0 10" fill="#0f172a"/>
+    </marker>
+    <marker id="arrowBlue" viewBox="0 0 10 10" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse">
+      <polygon points="0 0, 10 5, 0 10" fill="#1d4ed8"/>
+    </marker>
+    <marker id="arrowGreen" viewBox="0 0 10 10" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse">
+      <polygon points="0 0, 10 5, 0 10" fill="#16a34a"/>
+    </marker>
+  </defs>
+</svg>

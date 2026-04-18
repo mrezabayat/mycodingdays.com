@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">Timeline of four historical cyberattacks</title>
+  <desc id="desc">A horizontal timeline showing Brain in 1986, Morris in 1988, ILOVEYOU in 2000, and Equifax in 2017 with a brief lesson for each.</desc>
+  <rect width="1200" height="420" fill="#f8fafc"/>
+  <text x="600" y="54" text-anchor="middle" fill="#0f172a" font-size="32" font-family="Verdana, sans-serif" font-weight="700">
+    Four moments that changed security expectations
+  </text>
+  <line x1="110" y1="220" x2="1090" y2="220" stroke="#0f172a" stroke-width="6" stroke-linecap="round"/>
+
+  <g transform="translate(120 0)">
+    <circle cx="0" cy="220" r="18" fill="#1d4ed8"/>
+    <rect x="-68" y="90" width="136" height="92" rx="14" fill="#dbeafe"/>
+    <text x="0" y="118" text-anchor="middle" fill="#1e3a8a" font-size="22" font-family="Verdana, sans-serif" font-weight="700">1986</text>
+    <text x="0" y="145" text-anchor="middle" fill="#0f172a" font-size="18" font-family="Verdana, sans-serif">Brain</text>
+    <text x="0" y="286" text-anchor="middle" fill="#334155" font-size="16" font-family="Verdana, sans-serif">Removable media</text>
+    <text x="0" y="308" text-anchor="middle" fill="#334155" font-size="16" font-family="Verdana, sans-serif">was enough</text>
+  </g>
+
+  <g transform="translate(393 0)">
+    <circle cx="0" cy="220" r="18" fill="#0284c7"/>
+    <rect x="-74" y="90" width="148" height="92" rx="14" fill="#e0f2fe"/>
+    <text x="0" y="118" text-anchor="middle" fill="#0c4a6e" font-size="22" font-family="Verdana, sans-serif" font-weight="700">1988</text>
+    <text x="0" y="145" text-anchor="middle" fill="#0f172a" font-size="18" font-family="Verdana, sans-serif">Morris worm</text>
+    <text x="0" y="286" text-anchor="middle" fill="#334155" font-size="16" font-family="Verdana, sans-serif">Weak network trust</text>
+    <text x="0" y="308" text-anchor="middle" fill="#334155" font-size="16" font-family="Verdana, sans-serif">amplified code</text>
+  </g>
+
+  <g transform="translate(667 0)">
+    <circle cx="0" cy="220" r="18" fill="#db2777"/>
+    <rect x="-82" y="90" width="164" height="92" rx="14" fill="#fce7f3"/>
+    <text x="0" y="118" text-anchor="middle" fill="#9d174d" font-size="22" font-family="Verdana, sans-serif" font-weight="700">2000</text>
+    <text x="0" y="145" text-anchor="middle" fill="#0f172a" font-size="18" font-family="Verdana, sans-serif">ILOVEYOU</text>
+    <text x="0" y="286" text-anchor="middle" fill="#334155" font-size="16" font-family="Verdana, sans-serif">
+      <tspan x="0" dy="0">Human trust became</tspan>
+      <tspan x="0" dy="20">the transport layer</tspan>
+    </text>
+  </g>
+
+  <g transform="translate(940 0)">
+    <circle cx="0" cy="220" r="18" fill="#ef4444"/>
+    <rect x="-82" y="90" width="164" height="92" rx="14" fill="#fee2e2"/>
+    <text x="0" y="118" text-anchor="middle" fill="#b91c1c" font-size="22" font-family="Verdana, sans-serif" font-weight="700">2017</text>
+    <text x="0" y="145" text-anchor="middle" fill="#0f172a" font-size="18" font-family="Verdana, sans-serif">Equifax</text>
+    <text x="0" y="286" text-anchor="middle" fill="#334155" font-size="16" font-family="Verdana, sans-serif">
+      <tspan x="0" dy="0">Known flaws plus</tspan>
+      <tspan x="0" dy="20">weak operations</tspan>
+    </text>
+  </g>
+</svg>

@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="650" viewBox="0 0 1100 650" role="img" aria-labelledby="title desc">
+  <title id="title">Morris worm propagation diagram</title>
+  <desc id="desc">A stylized network showing the Morris worm moving across early Unix systems through multiple attack paths.</desc>
+  <rect width="1100" height="650" fill="#f8fafc"/>
+  <text x="550" y="58" text-anchor="middle" fill="#0f172a" font-size="30" font-family="Verdana, sans-serif" font-weight="700">
+    Morris spread because one worm had several ways in
+  </text>
+
+  <g stroke="#94a3b8" stroke-width="4" fill="none">
+    <line x1="230" y1="250" x2="420" y2="150"/>
+    <line x1="230" y1="250" x2="420" y2="350"/>
+    <line x1="420" y1="150" x2="680" y2="120"/>
+    <line x1="420" y1="150" x2="680" y2="260"/>
+    <line x1="420" y1="350" x2="680" y2="260"/>
+    <line x1="420" y1="350" x2="680" y2="470"/>
+    <line x1="680" y1="120" x2="900" y2="240"/>
+    <line x1="680" y1="260" x2="900" y2="240"/>
+    <line x1="680" y1="260" x2="900" y2="430"/>
+    <line x1="680" y1="470" x2="900" y2="430"/>
+  </g>
+
+  <g>
+    <circle cx="230" cy="250" r="54" fill="#fee2e2" stroke="#dc2626" stroke-width="6"/>
+    <text x="230" y="238" text-anchor="middle" fill="#7f1d1d" font-size="26" font-family="Verdana, sans-serif" font-weight="700">
+      Worm
+    </text>
+    <text x="230" y="270" text-anchor="middle" fill="#7f1d1d" font-size="18" font-family="Verdana, sans-serif">
+      11/2/1988
+    </text>
+  </g>
+
+  <g fill="#dbeafe" stroke="#1d4ed8" stroke-width="5">
+    <circle cx="420" cy="150" r="46"/>
+    <circle cx="420" cy="350" r="46"/>
+    <circle cx="680" cy="120" r="46"/>
+    <circle cx="680" cy="260" r="46"/>
+    <circle cx="680" cy="470" r="46"/>
+    <circle cx="900" cy="240" r="46"/>
+    <circle cx="900" cy="430" r="46"/>
+  </g>
+
+  <g fill="#0f172a" font-family="Verdana, sans-serif" font-size="17" text-anchor="middle">
+    <text x="420" y="150">
+      <tspan x="420" dy="0">BSD</tspan>
+      <tspan x="420" dy="18">Host</tspan>
+    </text>
+    <text x="420" y="344">
+      <tspan x="420" dy="0">Mail</tspan>
+      <tspan x="420" dy="18">Server</tspan>
+    </text>
+    <text x="680" y="126">Lab</text>
+    <text x="680" y="266">University</text>
+    <text x="680" y="476">Research</text>
+    <text x="900" y="246">NASA</text>
+    <text x="900" y="424">
+      <tspan x="900" dy="0">National</tspan>
+      <tspan x="900" dy="18">Lab</tspan>
+    </text>
+  </g>
+
+  <g stroke-width="6" fill="none" stroke-linecap="round">
+    <path d="M276 222 C332 196, 360 176, 384 164" stroke="#ef4444" marker-end="url(#redArrow)"/>
+    <path d="M276 260 C332 286, 360 316, 384 336" stroke="#ef4444" marker-end="url(#redArrow)"/>
+    <path d="M466 150 C548 140, 596 132, 634 124" stroke="#ef4444" marker-end="url(#redArrow)"/>
+    <path d="M466 350 C548 322, 596 288, 634 270" stroke="#ef4444" marker-end="url(#redArrow)"/>
+    <path d="M726 260 C800 254, 848 248, 854 244" stroke="#ef4444" marker-end="url(#redArrow)"/>
+    <path d="M726 470 C812 456, 848 444, 854 438" stroke="#ef4444" marker-end="url(#redArrow)"/>
+  </g>
+
+  <g transform="translate(108 500)">
+    <rect width="884" height="112" rx="18" fill="#e2e8f0"/>
+    <text x="442" y="34" text-anchor="middle" fill="#0f172a" font-size="21" font-family="Verdana, sans-serif" font-weight="700">
+      Entry paths reported in the Morris case
+    </text>
+    <text x="442" y="62" text-anchor="middle" fill="#334155" font-size="18" font-family="Verdana, sans-serif">
+      sendmail, fingerd, trusted hosts, and password guessing
+    </text>
+    <text x="442" y="86" text-anchor="middle" fill="#334155" font-size="18" font-family="Verdana, sans-serif">
+      <tspan x="442" dy="0">The bug that mattered most was reinfection logic that created</tspan>
+      <tspan x="442" dy="22">too many copies per host.</tspan>
+    </text>
+  </g>
+
+  <defs>
+    <marker id="redArrow" viewBox="0 0 10 10" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse">
+      <polygon points="0 0, 10 5, 0 10" fill="#ef4444"/>
+    </marker>
+  </defs>
+</svg>
